@@ -1,0 +1,156 @@
+/*
+Theme Name:portfolio-1
+Author: jean-philippe Mauviel
+Author URI:
+Description: test portfolio
+Version 1.0
+Text Domain: Portfolio-1
+*/
+
+
+.m-up-reset {
+    margin-top: 0;
+}
+
+header {
+    height: 200px;
+    background-color:#1b1e21;
+    margin-top:20px;
+    padding-top:25px;
+    padding-bottom:50px;
+}
+
+body {
+    background-color:#e7e7e7;
+}
+
+.jumbotron {
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.m-dw-30 {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.wp-block-image img {
+    display: block;
+    margin: auto;
+}
+
+.align-center {
+    margin: auto;
+    display: block;
+}
+
+.panel img {
+    margin-bottom: 15px;
+}
+
+footer {
+    height: auto;
+    background-color:#1b1e21;
+    margin-top:20px;
+    padding-top:25px;
+    padding-bottom:50px;
+
+}
+
+footer .box > .inside-widget {
+    align-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 3%;
+    padding: 2% 5%;
+    min-height: 300px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+footer .box > .inside-widget > h2 {
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 10px;
+    solid-color: whitesmoke;
+}
+
+footer table#wp-calendar {
+    width: 25%;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+footer table#wp-calendar caption {
+    text-align:center;
+    border-bottom: 1px;
+    solid-color: black;
+    padding-bottom: 2px;
+    padding-top: 0;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.date p {
+    text-align: center;
+}
+
+.jpm-pagination a .jpm-pagination span {
+    display: inline-block;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+
+.jpm-pagination a.prev {
+    padding-left: 0;
+}
+
+.jpm-pagination span.page-numbers.current {
+    background-color: #333;
+    color: #ddd;
+}
+
+/*-------------------------*/
+/*       slider carousel   */
+/*-------------------------*/
+
+#slider-01 img{
+    margin: 15px auto;
+}
+
+section#home-carousel {
+    background-color: #1b1e21;
+}
+
+.carousel-inner .carousel-item h5 {
+    font-size:2.2em;
+    font-weight: bold;
+}
+
+.carousel-inner .carousel-item p {
+    animation-delay: 1s;
+    font-size:1.2em;
+    padding: 10px 3%;
+}
+
+/*--------------------------*/
+/*4 medias en front page    */
+/*--------------------------*/
+
+.media-front article .card h1 {
+    min-height: 45px;
+ }
+
+ .media-front .card-body img {
+     margin-bottom: 0px;
+     width: 200px;
+     height: 100px;
+ }
